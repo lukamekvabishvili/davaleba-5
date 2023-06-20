@@ -1,0 +1,53 @@
+body{
+	padding: 21px 0px 0px 138px;
+	background-color: #edebe6;
+}
+header{
+	margin-bottom: 42px;
+}
+li{
+	margin-right: 35px;
+	display: inline-block;
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 13px;
+	color: #000000;
+	vertical-align: middle;
+}
+ul img{
+	vertical-align: middle;
+	width: 50px;
+}
+.s-1{
+	width: 1170px;
+	position: relative;
+}
+h2{
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 28px;
+	color: #000000;
+	margin-bottom: 27px;
+}
+.container{
+	display: inline-block;
+	margin-right: 35px;
+	vertical-align: top;}
+.div1{
+	display: inline-block;
+	vertical-align: top;
+}
+.inside{
+	width: 362px;
+	height: 172px;
+	background-color: white;
+	position: absolute;
+}
+.myp{
+	padding: 68px 87px 67px 37px;
+	position: absolute;
+}
