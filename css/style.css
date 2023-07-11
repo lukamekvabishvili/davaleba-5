@@ -1,34 +1,36 @@
-body {
-	background-color: #F5F5F5;
+body{
+	background: #F1F1F1;
 }
-header{
-	padding: 20px 0;
-	width: 100%;
-}
-.mydiv{
+
+.container{
 	width: 1170px;
 	margin: 0 auto;
-	position: fixed;
 }
-nav{
-	display: inline-block;
+
+/* header */
+
+.header{
+	margin-bottom: 42px;
 }
+
 li{
 	display: inline-block;
-	margin-right: 50px;
-	font-size: 20px;
-	font-weight: bold;
+	vertical-align: middle;
+	margin-right: 35px;
+	color: #000;
+	font-family: 'Roboto', sans-serif;
+	font-size: 11px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+	padding: 10px 0;
+}
+
+.logo{
+	padding: 10px 0;
 	vertical-align: middle;
 }
-.myimg{
-	vertical-align: middle;
-	width: 35px;
-	height: 35px;
-}
-.container {
-	width: 1170px;
-	margin: 0 auto;
-}
+
 /* section 1 */
 
 .s-1 {
@@ -108,48 +110,85 @@ h6 {
 
 }
 
+/* section 2 */
 
+.s-2{
+	margin-bottom: 36px;
+}
 
-
-/*section 2 */
-
-h3 {
+.myh3{
 	font-family: 'Roboto', sans-serif;
+	font-size: 24px;
 	font-style: normal;
 	font-weight: 800;
-	font-size: 24px;
-	line-height: 28px;
-	color: #000000;
+	line-height: normal;
+	color: #000;
 	margin-bottom: 30px;
 }
 
-.left-wrapper {
-/*	border: 2px solid red;*/
+.left-wrapper{
 	width: 758px;
 	display: inline-block;
 	vertical-align: top;
 	margin-right: 42px;
 }
 
-.img7 {
+.img5{
 	margin-bottom: 42px;
 }
 
-.img7, .img8, .img9, .img10, .img11 {
+.img5, .img6, .img7, .img8, .img9{
 	width: 100%;
 }
 
-.right-wrapper {
-/*	border: 2px solid cyan;*/
+.right-wrapper{
 	width: 362px;
 	display: inline-block;
 	vertical-align: top;
 }
 
-.img9 {
+.img7{
 	margin-bottom: 98px;
 }
 
-.img10 {
+.img8{
 	margin-bottom: 103px;
+}
+
+/* footer */
+
+footer {
+    padding: 60px 0;
+    background-color: #243043;;
+}
+
+h3{
+	color: #818687;
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+	margin-bottom: 14px;
+}
+
+.footerdiv1, .footerdiv2, .footerdiv3{
+	display: inline-block;
+	margin-right: 100px;
+	vertical-align: top;
+}
+.myh4{
+	color: #FFF;
+	font-family: 'Roboto', sans-serif;
+	font-size: 15px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	display: inline-block;
+	vertical-align: top;
+	margin-right: 250px;
+	padding: 20px 0;
+}
+.bu{
+	padding: 35px 0;
 }
