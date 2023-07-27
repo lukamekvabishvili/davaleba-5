@@ -1,5 +1,6 @@
 body{
 	background: #F1F1F1;
+	margin: 0 auto;
 }
 
 .container{
@@ -10,7 +11,12 @@ body{
 /* header */
 
 .header{
+	position: fixed;
+	width: 100%;
+	top: 0;
 	margin-bottom: 42px;
+	z-index: 5;
+	background-color: #F1F1F1;
 }
 
 li{
@@ -34,7 +40,9 @@ li{
 /* section 1 */
 
 .s-1 {
+	margin-top: 92px;
 	margin-bottom: 60px;
+	z-index: 4;
 }
 
 h4 {
